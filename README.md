@@ -58,8 +58,8 @@ Before running this application, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/certifications.git
-cd certifications
+git clone https://github.com/engr-muhammad-mansoor/certifications_manager.git
+cd certifications_manager
 ```
 
 ### 2. Database Setup
@@ -104,7 +104,7 @@ The application will be available at: `http://localhost:8080`
 The application automatically creates an admin user on first startup:
 
 - **Email**: `admin@gmail.com`
-- **Password**: `abcd1234`
+- **Password**: `change_me_in_production`
 
 **⚠️ Important**: Change the default admin password immediately after first login in a production environment!
 

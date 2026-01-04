@@ -23,10 +23,10 @@ public class DataInitializer {
             User user = new User();
             user.setName("Admin");
             user.setUsername("admin@gmail.com");
-            user.setPassword(passwordEncoder.encode("abcd1234"));
+            user.setPassword(passwordEncoder.encode("change_me_in_production"));
             user.setRole("ADMIN");
             userRepository.save(user);
-            System.out.println("Initialized user Admin with email mansoor@gmail.com and encoded password.");
+            System.out.println("Initialized user Admin with email admin@gmail.com and encoded password.");
         } else {
             System.out.println("User with email admin@gmail.com already exists.");
         }
